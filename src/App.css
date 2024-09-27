@@ -1,0 +1,353 @@
+#root {
+  margin:  auto;
+  text-align: center;
+}
+
+.card {
+  padding: 2rem;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/*App.jsx*/
+.next{
+  margin-top: 200px;
+  width: 800px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.next h2{
+color: white;
+font-weight: bolder;
+font-size:50px;
+}
+.next p{
+  color: gold;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:30px;
+}
+.upnext{
+  margin-top: 150px;
+  width: 950px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.upnext h1{
+  color:white;
+  font-size: 55px;
+  font-weight: bolder;
+  text-align:left;
+}
+.last{
+  margin-top: 150px;
+  width: 950px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.last h1{
+  font-size: 70px;
+  font-weight: bolder;
+  color:gold;
+}
+.last h2{
+  color:white;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align:left;
+}
+/*home*/
+.info-head{
+  color: white;
+  font-size: 60px;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 120px;
+  font-weight: bolder;
+}
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.code{
+  width: 430px;
+  height: 490px;
+  border-radius: 10px;
+  margin-top: 55px;
+}
+.home-img{
+  width: 205%;
+  height: 600px;
+  background: radial-gradient(#ffafcc,#ba3e6e,#ffafcc);
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 100px;
+
+}
+
+/*main*/
+.main{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 26%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  padding: 0 10px 10px 0;
+  margin-left: 30px;
+ 
+}
+.info-card{
+  padding:20px;
+  background-color: #383838;
+  display:grid;
+  grid-template-rows: min-content;
+}
+.info-card > img{
+  inline-size: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.snaps-inline{
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 1rem;
+}
+.snaps-inline > *{
+  scroll-snap-align: start;
+} 
+.main-title{
+  color:white;
+  font-weight: bold;
+}
+.main-text{
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+}
+::-webkit-scrollbar {
+  height: 10px;             
+  width: 10px;               
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:horizontal{
+  background: #383838;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:vertical{
+  background: #383838;
+  border-radius: 10px;
+}
+/*Business*/
+.busy{
+  margin-top: 170px;
+  display: block;
+}
+.busy-img{
+  width:300px;
+  height: 400px;
+  margin-top:80px;
+}
+.busy h1{
+  color:white;
+  margin-top:50px;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.busy h3{
+  color: #F3BF99;
+  font-weight: 400;
+margin-top: 10px;
+}
+.busy p{
+  color: #DCDCDC;
+  text-align: left;
+  margin-left: 100px;
+
+}
+.busy li{
+  color: #DCDCDC;
+  text-align: left;
+  margin-left: 87px;
+}
+.busy-body-div{
+  display: flex;
+  justify-content:space-evenly;
+  margin-top: 40px;
+}
+.busy-body-div a{
+  font-size: 20px 
+}
+.busy-body-div-email{
+ padding: 5px 40px;
+ color: black !important;
+}
+.busy-body-div-link{
+  padding: 5px 20px;
+  color: white !important;
+}
+.busy-about,.busy-skill{
+  color:white;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+.busy-busy{   
+  display: block;
+  background-color: #23252C;
+  height:1410px;
+  width:800px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+ border-radius: 50px;
+ margin-top: 40px;
+ 
+}
+.busy-icons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top:60px;
+  background:  #161619;
+  border-radius: 0px 0px 50px 50px;
+  height:55px;
+  ;
+}
+.busy-insta-img,.busy-git-img,.busy-facebook-img{
+  width:50px;
+  height:50px;
+  background-color:  rgba(252, 246, 246, 0.767) ;
+  border-radius: 10px;
+  ;
+}
+.busy-email-img{
+  width:40px;
+  height:40px;
+}
+.busy-link-img{
+  width:23px;
+  height:23px;
+}
+
+/*game*/
+.game{
+  margin-top: 200px;
+  color:white;
+  width: 1200px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.game-head{
+  color: white;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.car{
+  height:600px;
+}
+.carousel-control-prev-icon
+ {
+ background-image: url("./assets/arrow-left-square-fill.svg") !important;
+ background-color: white !important;
+}
+.carousel-control-next-icon{
+  background-image: url("./assets/arrow-right-square-fill.svg") !important;
+  background-color: white !important;
+}
+/*Guess game */
+.guess-game{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+.guess-game p{
+  text-align: center;
+}
+.guess-input{
+  margin-left: 350px;
+  margin-top: 40px;
+}
+/*Mind game */
+.main-doc{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+.main-body{
+  display: flex;
+  margin-top: 40px;
+  margin-left:420px;
+  }
+  .red,.blue,.green,.yellow{
+      width:130px;
+      height:130px;
+      margin-left: 30px;
+      cursor:pointer;
+  }
+  .red{
+      background-color: red;
+  }
+  .blue{
+      background-color:blue;
+  }
+  .green{
+      background-color: green;
+  }
+  .yellow{
+      background-color: yellow;
+  }
+  .main-body-buttons{
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  /*Tictactoe*/
+.div11{
+  width: 100px;
+  height: 100px;
+  color: black;
+  background-color: white;
+  font-size: 30px;
+  border: 1px solid black;
+  text-align: center;
+}
+.tic-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+vertical-align: middle;
+line-height: 100px;
+
+}
+.tic{
+  display: block;
+  padding:50px;
+}
+#tic-head,.tic-back{
+  text-align: center;
+}
+.tic-back{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.tick-win{
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 400;
+}
